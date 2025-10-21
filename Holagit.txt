@@ -1,0 +1,28 @@
+inicializa el seguimiento de la carpeta
+git init
+agregar unicamente un archivo para su control
+git add adios.txt
+agregar todos los archivos
+git add.
+
+u sin seguimiento
+a archivo añadido
+m archivo modificado
+
+agregar comentario a la etapa
+git commit -m "hice un cambio"
+
+Agregar y comentar los cambio
+git commit -am ""
+
+Crear una rama
+git branch rama1
+
+ver ramas creadas
+git branch 
+
+cambiar de rama
+git checkout rama1
+
+fusionar ramas
+git merge nombre de la rama
