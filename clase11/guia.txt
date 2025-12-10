@@ -1,0 +1,31 @@
+1. crear entorno virtuales
+    aqui trabajaremos sin afectar toda la computadora y podemos utilizar unicamente las herramientas
+    de un solo proyecto
+
+    1.1 python -m venv (venv-nombre del entorno)
+    2.1 venv\Scripts\activate (activar el entorno)
+
+    Si no funciona primero:
+    * Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+2. Instalar django 
+    1.2 Pip install django
+    2.2 pip list (verificar los paquetes)
+3 controlar las versiones de los paquetes
+    3.1 pip freeze > requirements.txt
+
+
+ESTRUCTURA
+Django modelo mvt
+modelo = base de datos
+views = como controlar la base de datos
+templates = muestra la informacion
+
+4 Crea un proyecto en django
+    4.1 django-admin startproject (project-nombre de proyecto) .
+5 Iniciar el servidor (comandos)
+    5.1 python manage.py runserver (iniciar el servidor)
+    5.2 python manage.py migrate (actualizar en la base de datos)
+    5.3 python manage.py createsuperuser (crear un superusuario)
+Modulos o Apps
+    python manage.py startapp (ventas-nombre del proyecto)
